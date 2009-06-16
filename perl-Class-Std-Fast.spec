@@ -7,12 +7,12 @@
 %define	pnam	Std-Fast
 Summary:	Class::Std::Fast - faster but less secure than Class::Std
 Name:		perl-Class-Std-Fast
-Version:	0.0.6
+Version:	0.0.8
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-v%{version}.tar.gz
-# Source0-md5:	28057406109b2bad802827e41be217a7
+# Source0-md5:	d06d084cb84f295b0aabf2eee78ef746
 BuildRequires:	perl-Class-Std >= 0.0.9
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
