@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Class
 %define	pnam	Std-Fast
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Std::Fast - faster but less secure than Class::Std
 Name:		perl-Class-Std-Fast
 Version:	0.0.8
@@ -13,6 +13,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-v%{version}.tar.gz
 # Source0-md5:	d06d084cb84f295b0aabf2eee78ef746
+URL:		http://search.cpan.org/dist/Class-Std-Fast/
 BuildRequires:	perl-Class-Std >= 0.0.9
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
