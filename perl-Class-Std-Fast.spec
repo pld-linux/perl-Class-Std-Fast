@@ -4,7 +4,6 @@
 
 %define	pdir	Class
 %define	pnam	Std-Fast
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Std::Fast - faster but less secure than Class::Std
 Name:		perl-Class-Std-Fast
 Version:	0.0.8
